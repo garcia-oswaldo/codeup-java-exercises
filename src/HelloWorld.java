@@ -1,11 +1,13 @@
-public class HelloWorld {
-    public static void main(String[] args){
-        System.out.println("Hello,World!");
-        System.out.println("Hello,World! today");
-        System.out.println("Hello,World! tomorrow");
-        int myFavoriteNumber = 32;
-        System.out.println(myFavoriteNumber);
-        String myString = "hello world";
+import java.util.Scanner;
+
+//public class HelloWorld {
+//    public static void main(String[] args){
+//        System.out.println("Hello,World!");
+//        System.out.println("Hello,World! today");
+//        System.out.println("Hello,World! tomorrow");
+//        int myFavoriteNumber = 32;
+//        System.out.println(myFavoriteNumber);
+//        String myString = "hello world";
 //        System.out.println(myString);
 //       String myString = "3.14159";
 //
@@ -24,10 +26,10 @@ public class HelloWorld {
         // and long can not process it.
 //        float myNumber = 3.14;
 //        System.out.println(myNumber);
-
-        float myNumber = 3.14f;
-        double myNumber2 =myNumber;
-        System.out.println(myNumber2);
+//
+//        float myNumber = 3.14f;
+//        double myNumber2 =myNumber;
+//        System.out.println(myNumber2);
 
 //        int x = 5;
 //        System.out.println(x++);
@@ -35,10 +37,10 @@ public class HelloWorld {
 //        System.out.println(x);
 //        //call to x shows 6 after incrementing
 
-        int x = 5;
-        System.out.println(++x);
-        // incremented by 1 and equals 6
-        System.out.println(x);
+//        int x = 5;
+//        System.out.println(++x);
+//        // incremented by 1 and equals 6
+//        System.out.println(x);
         //prints out 6 as final result of increment.
 
 //        int class. = 5;
@@ -170,10 +172,16 @@ public class HelloWorld {
 
 //        double pi = 3.14159;
 //        int almostPi = (int) pi;
+//
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("Enter something: ");
+////        String userInput = scanner.next();
+////        String userInput = scanner.nextLine();
+//        int userInput = scanner.nextInt();
+//        System.out.println("You entered: --> \"" + userInput + "\" <--");
+//
+//
+//
 
 
-
-
-    }
-
-}
