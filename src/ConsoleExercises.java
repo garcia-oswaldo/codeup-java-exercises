@@ -35,7 +35,7 @@ public class ConsoleExercises {
 //        Sentence = scanner.nextLine();
 //        System.out.println("You entered: --> \"" + Sentence + "\" <--");
 
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
 //        System.out.print(" Enter the length  of the Codeup Classrom:");
 //        String userInput = scanner.nextLine();
 //        double UserNumbers = Integer.parseInt(userInput);
@@ -56,22 +56,25 @@ public class ConsoleExercises {
 //        double volume = UserNumbers * UserWidth * UserHeight;
 //        System.out.printf("The volume of the Codeup Classroom is: %s \n",volume);
 
-     System.out.println("we will need a length and width");
-        System.out.println("Give us width");
 
-        double width = Double.parseDouble(scanner.nextLine());
 
-        System.out.print("Give us the length: ");
 
-        double length = Double.parseDouble(scanner.nextLine());
-
-        double area = length * width;
-
-        double  perimeter =(width*2) + (length *2);
-
-        System.out.println("area ;" + area);
-        System.out.println("perimeter ;" + perimeter);
-        System.out.println("Area: "+ area);
+//     System.out.println("we will need a length and width");
+//        System.out.println("Give us width");
+//
+//        double width = Double.parseDouble(scanner.nextLine());
+//
+//        System.out.print("Give us the length: ");
+//
+//        double length = Double.parseDouble(scanner.nextLine());
+//
+//        double area = length * width;
+//
+//        double  perimeter =(width*2) + (length *2);
+//
+//        System.out.println("area ;" + area);
+//        System.out.println("perimeter ;" + perimeter);
+//        System.out.println("Area: "+ area);
 
     }
 
