@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class ControlFlowExercises {
@@ -108,6 +109,91 @@ public class ControlFlowExercises {
 //            if (!userResponse.equalsIgnoreCase("y")){
 //                            anotherGrade = false;}
 //        }while(anotherGrade);
-//    }
-//}
+
+//        String message = "Hello";
+//        System.out.println(message); // prints "Hello"
+//        message = message + " World!";
+//        System.out.println(message); // prints "Hello, World!"
+
+        //Comparing strings
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Continue? [y/N] ");
+//        String userInput = sc.next();
+
+//        // Don't do this!
+//        boolean confirmation = userInput == "y";
+//
+//        // DON'T DO THIS
+//        if ("I am a string" == "I am a string") {
+//            System.out.println("Strings are equal");
+//
+//            // Do this instead!
+//            if ("I am a string".equals("I am a string")) {
+//                System.out.println("Strings are equal");
+
+
+        // String Comparison Methods
+
+//        .equals	determine, case-sensitively, if two strings have the same value.
+//        .equalsIgnoreCase	determine if two strings have the same value, disregarding their casing.
+//        .startsWith	determine, case-sensitively, if one string starts with another.
+//        .endsWith	determine, case-sensitively, if one string ends with another.
+//        String input = "Codeup Rocks!";
+//
+//        input.equals("codeup rocks!"); // false
+//        input.equals("Codeup Rocks!"); // true
+//
+//        input.equalsIgnoreCase("codeup rocks!"); // true
+//        input.equalsIgnoreCase("Codeup Rocks!"); // true
+//
+//        input.startsWith("codeup"); // false
+//        input.startsWith("Codeup"); // true
+//
+//        input.endsWith("rocks"); // false
+//        input.endsWith("rocks!"); // false
+//        input.endsWith("Rocks!"); // true
+
+
+//        StringManipulation
+//        The following methods can be used to manipulate strings:
+
+//            String input ="Codeup Rocks";
+////        char charAt(int index)
+////        Returns the character at the specified index of the string.
+//        System.out.println(input.charAt(3));
+//
+////        int indexOf(String subString)
+////        Returns the index of the first occurrence of a certain substring.
+////                Returns -1 if the substring is not found.
+//        System.out.println(input.indexOf("c"));
+//
+////        int lastIndexOf(String subString)
+////        Like indexOf, but starts the search from the end of the string.
+//        System.out.println(input.lastIndexOf("o"));
+////        int length()
+////        Returns the length of a string.
+//        System.out.println(input.length());
+////        String replace(String pattern, String replacement)
+////        Returns a copy of the string that has pattern replaced with replacement.
+////        String replaceSentence =  " I love the color red. I love the color blue. I love the color yellow";
+////        System.out.println(replaceSentence.replace("love", "like"));
+////        String substring(int beginIndex[, int endIndex])
+////        Returns a new substring that starts at a specified index and (optionally) ends at the specified index
+//        System.out.println(input.substring(0,6));
+////        String toLowerCase()
+////        Returns a string that has all lower case letters.
+//        System.out.println(input.toLowerCase());
+////                String toUpperCase()
+////        Returns a string that has all upper case letters.
+//        System.out.println(input.toUpperCase());
+////                String trim()
+////        Returns a copy of the string without leading and trailing whitespaces.
+//        System.out.println(input.trim());
+
+            }
+        }
+
+
+
 
