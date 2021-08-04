@@ -1,9 +1,9 @@
 import java.util.Locale;
-import java.util.Scanner;
-
-public class ControlFlowExercises {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+//import java.util.Scanner;
+//
+//public class ControlFlowExercises {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
 //        int i = 5;
 //        while (i <= 15) {
 //            System.out.println(i + " ");
@@ -191,8 +191,8 @@ public class ControlFlowExercises {
 ////        Returns a copy of the string without leading and trailing whitespaces.
 //        System.out.println(input.trim());
 
-            }
-        }
+
+
 
 
 
