@@ -2,16 +2,19 @@ import java.util.Scanner;
 
 //public class HelloWorld {
 //    public static void main(String[] args){
-//        System.out.println("Hello,World!");
+////        System.out.println("Hello,World!");
+////        System.out.println(myString);
+//       String myString = "3.14159";
+//
+//        System.out.println(myString);
+//        }
+//}
 //        System.out.println("Hello,World! today");
 //        System.out.println("Hello,World! tomorrow");
 //        int myFavoriteNumber = 32;
 //        System.out.println(myFavoriteNumber);
 //        String myString = "hello world";
-//        System.out.println(myString);
-//       String myString = "3.14159";
-//
-//        System.out.println(myString);
+
 //        long myNumber =;
 //        System.out.println(myNumber);
 //        illegal start of expression
@@ -52,12 +55,27 @@ import java.util.Scanner;
 
 //        int three = (int) "three";
         //inconvertable types
-
-        //13.
-
-
-        //14.
-
+//
+//        //13.
+//        int x = 4;
+//        x = x + 5;
+//        9%4
+//
+//        int x = 3;
+//        int y = 4;
+//        y = y * x;
+//        12/=4
+//
+//       int x = 10;
+//       int y = 2;
+//       x = x / y;
+//       y = y - x;
+//
+//
+//        //14.
+//      What happens if you assign a value to a numerical variable that is larger (or smaller) than the type can hold?
+//           Gives error
+//      What happens if you increment a numeric variable past the type's capacity?
 
 
 
