@@ -13,7 +13,7 @@ public class ConsoleExercises {
 
 
 
-
+//N01
 //        Scanner scanner = new Scanner(System.in); // this allows scanner class to work with input
 //        System.out.println("Enter interger");  //request input
 //        int userInput = scanner.nextInt();    //stores input can be float double ect
@@ -28,13 +28,13 @@ public class ConsoleExercises {
 //        forever = scanner.nextLine();
 //        System.out.println("You entered: --> \"" + Vatos + locos + forever + "\" <--");
 
-
+//NO2
 //        String Sentence;
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.print("Enter a sentence: ");
 //        Sentence = scanner.nextLine();
 //        System.out.println("You entered: --> \"" + Sentence + "\" <--");
-
+//NO3
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.print(" Enter the length  of the Codeup Classrom:");
 //        String userInput = scanner.nextLine();
