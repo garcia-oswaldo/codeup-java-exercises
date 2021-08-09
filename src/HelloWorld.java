@@ -1,13 +1,14 @@
-import java.util.Scanner;
 
-//public class HelloWorld {
-//    public static void main(String[] args){
-////        System.out.println("Hello,World!");
-////        System.out.println(myString);
-//       String myString = "3.14159";
-//
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello,World!");
 //        System.out.println(myString);
-//        }
+        String myString = "3.14159";
+
+        System.out.println(myString);
+    }
+}
 //}
 //        System.out.println("Hello,World! today");
 //        System.out.println("Hello,World! tomorrow");
