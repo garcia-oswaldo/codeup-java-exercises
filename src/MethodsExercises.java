@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MethodsExercises {
+public  class MethodsExercises {
     static Scanner in = new Scanner(System.in);
 //
 //    public static int add(int num1, int num2) {
