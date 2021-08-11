@@ -1,74 +1,67 @@
-//package util;
+
+package util;
+
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class Input {
+
+    private Scanner scanner;
+
+    public Input() {
+        this.scanner = new Scanner(System.in);
+    }
+
+    public String getString() {
+        System.out.println("Type Something: ");
+        String userString = scanner.nextLine();
+        return userString;
+    }
+
+    public boolean yesNo() {
+        System.out.println("Select (y/n):");
+        String userAnswer = scanner.next();
+        return userAnswer.equals("y");
+    }
+
+    public int getInt(int min, int max) {
+//        System.out.println("Give me an integer: ");
+        int userInt = scanner.nextInt();
+
+        if (userInt < min || userInt > max) {
+            System.out.println("Invalid input! Try again!");
+            return getInt(min, max);
+        } else {
+//            System.out.println("That's a valid integer.");
+            return userInt;
+        }
+    }
+
+    public int getInt() {
+        System.out.println("Give me an integer: ");
+        int userInt = scanner.nextInt();
+        return userInt;
+    }
+
+    public double getDouble(double min, double max) {
+        System.out.println("Give me an decimal: ");
+        double userDouble = scanner.nextDouble();
+
+        if (userDouble < min || userDouble > max) {
+            System.out.println("Try again!");
+            return getDouble(min, max);
+        } else {
+            System.out.println("That's a valid decimal.");
+            return userDouble;
+        }
+    }
+
+    public double getDouble() {
+        System.out.println("Give me a decimal: ");
+        double userDouble = scanner.nextDouble();
+        return userDouble;
+    }
+
+
+}
 //
-//import java.util.Scanner;
-//
-//class Input {
-//
-//    private Scanner keyboardInput; //Scanner field
-//
-//
-//    public Input() {  // Constructor.
-//        keyboardInput = new Scanner(System.in);
-//        System.out.println("I like to move");
-//    }
-//
-//
-//    public String getString() {
-//        System.out.println("I feel good");
-//        String userString = keyboardInput.nextLine();
-//        return userString;
-//    }
-//
-//    public boolean yesNo() {
-//        System.out.println("Select (y/n): ");
-//        String userAnswer = keyboardInput.nextLine();
-//        return userAnswer.equals("y");
-//    }
-//
-//    public int getInt() {
-//        System.out.println("Give me an Integer: ");
-//        int userInt = keyboardInput.nextInt();
-//        return userInt;
-//    }
-//
-//    public int getInt(int min, int max) {
-//        System.out.println("Enter an integer: ");
-//        int userInt = keyboardInput.nextInt();
-//
-//        if (userInt < min || userInt > max) {
-//            System.out.println("Try again!");
-//            return getInt(min, max);
-//        } else {
-//            System.out.println("That's a valid integer");
-//            return userInt;
-//        }
-//    }
-//
-//
-//
-//    public double getDouble(double min, double max) {
-//        System.out.println("Type in a decimal: ");
-//        double userDouble = keyboardInput.nextDouble();
-//
-//        if (userDouble < min || userDouble > max) {
-//            System.out.println("Try again!");
-//            return getDouble(min, max);
-//        } else {
-//            System.out.println("That's a valid decimal");
-//            return userDouble;
-//        }
-//    }
-//
-//    public double getDouble() {
-//        return 5;
-//    }
-//
-//    public static void main(String[] args) {
-//        Input input =  new Input();
-//
-//    }
-//
-//
-//
-//
-//}
