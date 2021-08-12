@@ -6,20 +6,20 @@ import java.util.Scanner;
 
 public class Input {
 
-    private Scanner scanner;
+    public Scanner scanner;
 
     public Input() {
         this.scanner = new Scanner(System.in);
     }
 
     public String getString() {
-        System.out.println("Type Something: ");
+//        System.out.println("Type Something: ");
         String userString = scanner.nextLine();
         return userString;
     }
 
     public boolean yesNo() {
-        System.out.println("Select (y/n):");
+//        System.out.println("Select (y/n):");
         String userAnswer = scanner.next();
         return userAnswer.equals("y");
     }
@@ -29,7 +29,7 @@ public class Input {
         int userInt = scanner.nextInt();
 
         if (userInt < min || userInt > max) {
-            System.out.println("Invalid input! Try again!");
+//            System.out.println("Invalid input! Try again!");
             return getInt(min, max);
         } else {
 //            System.out.println("That's a valid integer.");
