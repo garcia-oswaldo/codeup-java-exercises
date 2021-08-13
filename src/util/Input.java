@@ -25,11 +25,18 @@ public class Input {
     }
 
     public int getInt(int min, int max) {
-//        System.out.println("Give me an integer: ");
-        int userInt = scanner.nextInt();
-
+        System.out.println("Give me an integer: ");
+        int userInt;
+//        int userInt = scanner.nextInt();
+//            getInt();
+        try {
+            userInt = Integer.valueOf(scanner.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("THIS IS NOT AN INTEGER ");
+            return getInt(min, max);
+        }
         if (userInt < min || userInt > max) {
-//            System.out.println("Invalid input! Try again!");
+            System.out.println("Out of range Try again!");
             return getInt(min, max);
         } else {
 //            System.out.println("That's a valid integer.");
@@ -38,15 +45,30 @@ public class Input {
     }
 
     public int getInt() {
-        System.out.println("Give me an integer: ");
-        int userInt = scanner.nextInt();
+        System.out.print("Give me an integer: ");
+        int userInt = 0;
+        try {
+//              int userInt = scanner.nextInt();
+          userInt =  Integer.valueOf(scanner.nextLine());
+        } catch (NumberFormatException e) {
+
+        }
+
+      
         return userInt;
     }
 
-    public double getDouble(double min, double max) {
-        System.out.println("Give me an decimal: ");
-        double userDouble = scanner.nextDouble();
 
+    public double getDouble(double min, double max) {
+        double userDouble;
+        System.out.println("Give me an decimal: ");
+//        double userDouble = scanner.nextDouble();
+        try {
+            userDouble = Double.valueOf(scanner.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("pendejo get it right");
+            return getDouble(min, max);
+        }
         if (userDouble < min || userDouble > max) {
             System.out.println("Try again!");
             return getDouble(min, max);
@@ -58,8 +80,13 @@ public class Input {
 
     public double getDouble() {
         System.out.println("Give me a decimal: ");
-        double userDouble = scanner.nextDouble();
-        return userDouble;
+
+        try {
+            return Double.valueOf(scanner.nextLine());
+
+        } catch (NumberFormatException e) {
+            return getDouble();
+        }
     }
 
 
